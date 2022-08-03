@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\marlon.martins\\.nuget\\packages\\": {}
+    "C:\\Users\\Marlon Jerold\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marlon.martins\\Documents\\RPG\\RPG.csproj",
+      "projectUniqueName": "C:\\Users\\Marlon Jerold\\source\\repos\\rpgSheet\\rpgSheet\\RPG.csproj",
       "projectName": "RPG",
-      "projectPath": "C:\\Users\\marlon.martins\\Documents\\RPG\\RPG.csproj",
-      "packagesPath": "C:\\Users\\marlon.martins\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marlon.martins\\Documents\\RPG\\obj\\",
+      "projectPath": "C:\\Users\\Marlon Jerold\\source\\repos\\rpgSheet\\rpgSheet\\RPG.csproj",
+      "packagesPath": "C:\\Users\\Marlon Jerold\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Marlon Jerold\\source\\repos\\rpgSheet\\rpgSheet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marlon.martins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Marlon Jerold\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

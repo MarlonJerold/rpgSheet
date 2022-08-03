@@ -7,18 +7,33 @@ namespace RPG
 {  
     public class CharacterSheet
     {
-        public decimal anthropology {get; set;}
-        public decimal fireArms {get; set;}
-        public decimal archeology {get; set;}
-        public decimal keychain {get; set;}
-        public decimal science {get; set;}
-        public decimal electricalConcert {get; set;}
-        public decimal mechanical {get; set;}
-        public decimal meet {get; set;}
-        public decimal toListen{get; set;}
-        public decimal dodge {get; set;}
-        public decimal story {get;set;}
-        public decimal fight {get;set;}
-        public decimal medicine{get;set;}
+ 
+        private int _anthropology {get; set;}
+        private decimal _fireArms {get; set;}
+        private decimal _archeology {get; set;}
+        private decimal _keychain {get; set;}
+        private decimal _science {get; set;}
+        private decimal _electricalConcert {get; set;}
+        private decimal _mechanical {get; set;}
+        private decimal _meet {get; set;}
+        private decimal _toListen{get; set;}
+        private decimal _dodge {get; set;}
+        private decimal _story {get;set;}
+        private decimal _fight {get;set;}
+        private decimal _medicine{get;set;}
+
+        public CharacterSheet(int _Anthropology){
+           this._anthropology = _Anthropology;
+        }
+
+        public decimal GetAnthropology()
+        {
+            return _anthropology;
+        }
+
+        public void SetAnthropology(int NovoNumber)
+        {
+          _anthropology = NovoNumber; 
+        }
     }
 }

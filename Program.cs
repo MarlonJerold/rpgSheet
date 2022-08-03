@@ -12,17 +12,12 @@ namespace RPG
     {
         static void Main(string[] args)
         {
-          CharacterSheet characterSheet = new CharacterSheet();            
-          Calculator calculator = new Calculator();
-          //Player teste = new Player();
-        
-         // teste.value = calculator.addition(teste.valor1, teste.valor2);
-
-        // WriteLine(teste.value);
-            
-            calculator.anthropology = 10;
-            decimal value = calculator.addition(calculator.anthropology, 10);
-            Write(value);
-        }
+           CharacterSheet carac = new CharacterSheet(10);
+           System.Console.WriteLine(carac.GetAnthropology());
+           carac.SetAnthropology(21);
+           System.Console.WriteLine(carac.GetAnthropology()); 
+    
+    }
+               
     }
 }
