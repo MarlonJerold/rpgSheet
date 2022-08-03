@@ -12,7 +12,7 @@ namespace RPG
     {
         static void Main(string[] args)
         {
-           CharacterSheet carac = new CharacterSheet(10);
+           CharacterSheet carac = new CharacterSheet(0,0,0,0,0,0,0,0,0,0,0,0,0);
            System.Console.WriteLine(carac.GetAnthropology());
            carac.SetAnthropology(21);
            System.Console.WriteLine(carac.GetAnthropology()); 

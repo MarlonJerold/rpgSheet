@@ -22,8 +22,20 @@ namespace RPG
         private decimal _fight {get;set;}
         private decimal _medicine{get;set;}
 
-        public CharacterSheet(int _Anthropology){
-           this._anthropology = _Anthropology;
+        public CharacterSheet(int Anthropology, decimal FireArms, decimal Archeology, decimal Keychain, decimal Science, decimal ElectricalConcert, decimal Mechanical, decimal Meet, decimal ToListen, decimal Dodge, decimal Story, decimal Fight, decimal Medicine){
+           this._anthropology = Anthropology;
+           this._fireArms = FireArms;
+           this._archeology = Archeology;
+           this._keychain = Keychain;
+           this._science = Science;
+           this._electricalConcert = ElectricalConcert;
+           this._mechanical = Mechanical;
+           this._meet = Meet;
+           this._toListen = ToListen;
+           this._dodge = Dodge;
+           this._story = Story;
+           this._fight = Fight;
+           this._medicine = Medicine;
         }
 
         public decimal GetAnthropology()
@@ -35,5 +47,6 @@ namespace RPG
         {
           _anthropology = NovoNumber; 
         }
+
     }
 }

@@ -4,12 +4,8 @@
  using System.Threading.Tasks;
  namespace RPG
  {
-     public class  Player : CharacterSheet
+     public class  Player 
     {
-        public Player(int _Anthropology) : base(_Anthropology)
-        {
-        }
-
         public string name {get; set;}
         public int age {get; set;}
         public string academicFormation {get; set;}
