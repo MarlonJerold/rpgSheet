@@ -38,6 +38,17 @@ namespace RPG
            this._medicine = Medicine;
         }
 
+        // Membro de uma classe que fornece um mecanismo flexível 
+        // para ler, gravar ou calcular o valor de um dado em particular.
+        // As propriedades permitem que uma classe exponha de uma maneira pública a obtenção e definição destes valores.
+        public int Teste{
+            get{return _anthropology;}
+            set{if (value != 0 ){
+                    _anthropology = value;
+                } 
+            }
+        }
+
         public decimal GetAnthropology()
         {
             return _anthropology;
@@ -50,3 +61,9 @@ namespace RPG
 
     }
 }
+
+/*
+ Struct s são usadas para criar estruturas de dados cujas instâncias (os objetos)
+ sejam pequenas (no máximo 16 bytes), sejam imutáveis, representem um valor único, ou seja, 
+ que não contenha diversas características, e não precise ser encapsulado (boxing) em objetos por referência com frequência
+*/
